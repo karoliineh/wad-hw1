@@ -1,0 +1,42 @@
+
+html, body {
+    margin: 0px;
+    padding: 0;
+    background-color: #dddddd;
+}
+
+header {
+    display: flex; /* allows div "boxes" to be next to each other */
+    min-height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background-color: #1976d2;
+    color: white;
+}
+
+header > strong { /* select all the texts, which are the immediate children of header */
+    margin: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1976d2;
+}
+
+section {
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer ul li a {
+    text-decoration: none; /* controls underlining texts etc */
+    color: white;
+}
+
+div.portrait > img { /* select all the images, which are the immediate children of div.portrait */
+    width: 200px;
+}
+
