@@ -2,7 +2,7 @@
 html, body {
     margin: 0px;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #efefef;
 }
 
 header {
@@ -31,6 +31,14 @@ section {
     font-family: 'Open Sans', sans-serif;
 }
 
+#lower_section_padding {
+    padding-bottom: 70px; /* otherwise the footer can hide some content */
+}
+
+h1 {
+    font-size: larger;
+}
+
 footer ul li a {
     text-decoration: none; /* controls underlining texts etc */
     color: white;
@@ -41,8 +49,6 @@ div.portrait > img { /* select all the images, which are the immediate children 
 }
 
 table {
-    width: 50%;
-
     border-collapse: collapse;
 }
 
@@ -50,8 +56,12 @@ table {
     text-align: left;
 }
 
+.centered {
+    text-align: center;
+}
+
 td, th {
-    padding: 5px 0 15px 15px;
+    padding: 0 5px 5px 15px;
     border-bottom: 1px solid darkgrey;
 }
 
