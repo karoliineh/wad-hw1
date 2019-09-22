@@ -48,6 +48,17 @@ div.portrait > img { /* select all the images, which are the immediate children 
     width: 200px;
 }
 
+ol li {
+    font-size: large;
+    font-weight: bold;
+    list-style: none;
+}
+
+ol li + li {
+    font-size: medium;
+    font-weight: normal;
+}
+
 table {
     border-collapse: collapse;
 }
